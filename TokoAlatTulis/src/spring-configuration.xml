@@ -12,12 +12,12 @@
     <context:annotation-config/>
     <tx:annotation-driven transaction-manager="transactionManager"/>
     
-    <context:component-scan base-package="gungde"/>
+    <context:component-scan base-package="tokoalattulis"/>
     
     <bean id="dataSource"
         class="org.springframework.jdbc.datasource.DriverManagerDataSource"
         p:driverClassName="com.mysql.jdbc.Driver"
-        p:url="jdbc:mysql://localhost:3306/4ia01"
+        p:url="jdbc:mysql://localhost:3306/labti_tokoalattulis"
         p:username="root"
         p:password="" />
     

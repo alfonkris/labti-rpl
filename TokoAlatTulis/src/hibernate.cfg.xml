@@ -46,6 +46,7 @@ Contributor(s):
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.format_sql">true</property>
     
-    <mapping class="gungde.model.Buku"/>
+    <mapping class="tokoalattulis.model.AlatTulis"/>
+    <mapping class="tokoalattulis.model.Penjualan"/>
   </session-factory>
 </hibernate-configuration>
